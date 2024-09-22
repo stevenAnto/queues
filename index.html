@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="./js/utils.js"></script>
+    <script src="./js/datos.js"></script>
+    <script src="./js/render.js"></script>
+    <script src="./js/paginas.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="colaVenta">Cola Venta</h1>
+        <div class="search-container">
+            <form id="formHeader" action="#" method="get">
+                <input id ="search" type="search" placeholder="Buscar cola" name="q" aria-label="Buscar">
+                <div id = "btnBuscar">Buscar</div>
+                <div class="filters">
+                    <label>
+                        <input type="radio" name="filtro" value="usuario"> usuario
+                    </label>
+                    <label>
+                        <input type="radio" name="filtro" value="lugar" checked> lugar
+                    </label>
+                        <label>
+                            <input type="radio" name="tipo" value="demanda"> demanda
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo" value="oferta" checked> oferta
+                        </label>
+                </div>
+                <div>
+                    <div class="contenedorCreadors">
+                        <div class="create">Lanzar Oferta</div>
+                        <div class="createD">Lanzar Demanda</div>
+                    </div>
+                </div>
+                <div class="match">Hacer Match</div>
+            </form>
+        </div>
+        <nav class="navBar">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cola Venta - Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
